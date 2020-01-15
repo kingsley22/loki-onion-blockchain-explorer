@@ -4,7 +4,7 @@
 
 **Code features**
 
- - no cookies, no web analytics trackers, no images,
+ - no images,
  - by default no JavaScript, but can be enabled for client side decoding and proving transactions,
  - open sourced,
  - made fully in C++,

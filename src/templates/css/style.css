@@ -1,14 +1,18 @@
+html {
+	background-color: #1C7E12;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-size: 80%;
-    background-color: #1a1a1a;
     font-family: sans-serif;
     color: white;
+	text-align: center;
+	background-image: linear-gradient(190deg,#023E0F, #1C7E12);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    text-align: left;
     font-weight: normal;
     margin-bottom: 0.2em;
 }
@@ -49,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .Header > a:link {
     text-decoration: none;
-    color: white; !important
+    color: white !important;
 }
 
 .Table {
@@ -116,11 +120,17 @@ form {
 .style-1 input[type="text"] {
     padding: 2px;
     border: solid 1px rgba(255, 255, 255, 0.25);
-    background-color: #1a1a1a;
+    background-color: #023E0F;
     height: 2em;
     width: 80%;
     font-size: 1em;
     color: white;
+}
+input[type="text"]::placeholder,
+input[type="text"]:-ms-input-placeholder,
+input[type="text"]::-ms-input-placeholder {
+	color:#000!important;
+	opacity:1;
 }
 
 .style-1 input[type="text"]:focus,
